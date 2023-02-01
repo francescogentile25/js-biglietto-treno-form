@@ -18,7 +18,19 @@ console.log(formBtnElement, inputKmElement, selectAgeElement)
 
 formBtnElement.addEventListener('click', function () {
 	console.log('Il bottone funziona')
-
 	console.log(inputKmElement.value, selectAgeElement.value)
     
+    let distance = inputKmElement.value
+	let price = selectAgeElement.value
+
+	switch (price) {
+		case 'youngh':
+			
+			break
+		case 'senior':
+			
+			break
+		default:
+			
+	}
 })

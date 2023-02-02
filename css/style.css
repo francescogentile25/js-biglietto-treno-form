@@ -1,3 +1,14 @@
 h1{
     color: red;
 }
+
+body{
+    background-image: url(../img/treno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.display-none{
+    display: none;
+}
